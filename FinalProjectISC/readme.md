@@ -17,13 +17,13 @@
             *  trackvisit : a form for trackvisits
 
 
-To Run the program :
-    Things needed to install :
+*  To Run the program :
+*    Things needed to install :
         * WPF (.NET Framework)
         * Dapper Extension and csv helper (NuGetPackages)
         * SQL extension
 
-How to clone the Database:
+* How to clone the Database:
         *  Install Database and SQL frameworks for VisualStudio.
         *  Open Project ISC Database and use Tools/Sql/SchemaComparision to compare the existing Databse project to the databse server.
         *  Compare and Update the Schema.

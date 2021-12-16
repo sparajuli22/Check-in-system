@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinalProjectISC
 {
-    class LoginInfo
+    public class LoginInfo
     {
         string LoginId { get; set; }
         string Password { get; set; }

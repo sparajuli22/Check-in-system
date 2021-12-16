@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinalProjectISC
 {
-    class ISC_Staff
+    public class ISC_Staff
     {
         int ID { get; set; }
         string IC_Name { get; set; }

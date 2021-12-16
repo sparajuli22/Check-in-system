@@ -14,3 +14,9 @@ F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalPr
 F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.CoreCompileInputs.cache
 F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.exe
 F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.pdb
+F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\FinalProjectISC.exe.config
+F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\FinalProjectISC.exe
+F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\FinalProjectISC.pdb
+F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\Dapper.dll
+F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\Dapper.xml
+F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.CopyComplete

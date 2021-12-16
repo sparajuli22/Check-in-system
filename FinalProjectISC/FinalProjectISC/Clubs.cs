@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FinalProjectISC
 {
-    class Clubs
+    public class Clubs
     {
-        int ID { get; set; }
-        string Name { get; set; }
-        string PresidentName { get; set; }
-        string[] Mebmbers { get; set; }
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string PresidentName { get; set; }
+        public string[] Mebmbers { get; set; }
     }
 }

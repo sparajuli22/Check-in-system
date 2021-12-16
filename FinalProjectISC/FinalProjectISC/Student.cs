@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace FinalProjectISC
 {
-    class Student
+    public class Student
     {
-        int ID { get; set; }
-        string SName { get; set; }
-        string Email { get; set; }
+        public int ID { get; set; }
+        public string SName { get; set; }
+        public string Email { get; set; }
     }
 }

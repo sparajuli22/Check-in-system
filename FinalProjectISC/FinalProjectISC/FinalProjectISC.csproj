@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clubs.cs" />
+    <Compile Include="DatabaseConnector.cs" />
     <Compile Include="Department.cs" />
     <Compile Include="ISC_Staff.cs" />
     <Compile Include="LoginInfo.cs" />

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FinalProjectISC;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -50,10 +51,14 @@ namespace ISCform
 
         private void button1_MouseClick(object sender, MouseEventArgs e)
         {
+            var newconn = new DatabaseConnector();
+            var studentList = newconn.GetStudents();
             email = emailTextBox.Text;
             name = textBox2.Text;
             ID = textBox3.Text;
-            label1.Text = $"Hello, {email.ToString()} , {name.ToString()} , {ID.ToString()}";
+            label1.Text = $"Hello, {studentList[0].SName.ToString()} ," +
+                $" {studentList[1].SName.ToString()} , " +
+                $" {studentList[2].SName.ToString()}";
 
         }
         private void button2_MouseClick(object sender, MouseEventArgs e)

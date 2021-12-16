@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinalProjectISC
 {
-    class Employee
+    public class Employee
     {
         int Id { get; set; }
         int Ename { get; set; }

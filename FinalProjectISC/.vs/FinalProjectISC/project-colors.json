@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1233c0a2-bdca-4bb6-9506-9f9afb1d63af": {
+      "ProjectGuid": "1233c0a2-bdca-4bb6-9506-9f9afb1d63af",
+      "DisplayName": "FinalProjectISC",
+      "ColorIndex": 0
+    },
+    "917c11cc-0c1e-4e0f-baeb-95e923927d8f": {
+      "ProjectGuid": "917c11cc-0c1e-4e0f-baeb-95e923927d8f",
+      "DisplayName": "ISCDatabase",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

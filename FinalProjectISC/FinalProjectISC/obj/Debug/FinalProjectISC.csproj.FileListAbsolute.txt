@@ -1,0 +1,11 @@
+C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\bin\Debug\FinalProjectISC.exe.config
+C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\bin\Debug\FinalProjectISC.exe
+C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\bin\Debug\FinalProjectISC.pdb
+C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\bin\Debug\Dapper.dll
+C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\bin\Debug\Dapper.xml
+C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.CoreCompileInputs.cache
+C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.CopyComplete
+C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.exe
+C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.pdb
+C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.AssemblyReference.cache
+C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.SuggestedBindingRedirects.cache

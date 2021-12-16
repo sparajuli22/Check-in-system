@@ -9,6 +9,7 @@
             * - Student.cs : a table storing student information
             * - Visits.cs : a table with visitor that stores the visitors visting ISC
         *  ISC Database : a folder that uses create and stored proceudre for functions like recording the total number of visits
+            * The stored procedures and tables can be found in dbo folder inside here.
         *  ISC Form : WPF(.NET frameworks for all the form for front end)
             *  Calendar.cs : a form that imports the calendar
             *  Form1 : form for the check-in
@@ -24,9 +25,9 @@
         * SQL extension
 
 * How to clone the Database:
-        *  Install Database and SQL frameworks for VisualStudio.
-        *  Open Project ISC Database and use Tools/Sql/SchemaComparision to compare the existing Databse project to the databse server.
-        *  Compare and Update the Schema.
+    *  Install Database and SQL frameworks for VisualStudio.
+    *  Open Project ISC Database and use Tools/Sql/SchemaComparision to compare the existing Databse project to the databse server.
+    *  Compare and Update the Schema.
 
 
 

@@ -7,10 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProjectISC", "FinalPro
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ISCDatabase", "ISCDatabase\ISCDatabase.sqlproj", "{917C11CC-0C1E-4E0F-BAEB-95E923927D8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISCform", "F:\Database\database_final_isc\ISCform\ISCform.csproj", "{BB7A4A2D-9BA6-4D70-9A61-221E8CDE7F3C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{1233C0A2-BDCA-4BB6-9506-9F9AFB1D63AF} = {1233C0A2-BDCA-4BB6-9506-9F9AFB1D63AF}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISCform", "ISCform\ISCform.csproj", "{BB7A4A2D-9BA6-4D70-9A61-221E8CDE7F3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

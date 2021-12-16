@@ -1,6 +1,10 @@
 ﻿
-CREATE PROCEDURE [dbo].[usp_CheckLogin] (@ID varchar(255), @Pwd varchar(255))
+CREATE PROCEDURE [dbo].[usp_CheckLogin] (@id varchar(255), @pwd varchar(255))
 AS
-SELECT count(*) AS [Count]
-FROM LoginInfo
-WHERE LoginID = 'lgonzalez' and Password = 'lgonzalez123'
+
+BEGIN
+SELECT count(L.[LoginID]) AS ID_Count
+FROM LoginInfo L
+WHERE L.[LoginID] = @id and L.[Password] = @pwd
+GROUP BY L.[LoginID]
+END

@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Clubs] (
-    [ID]           INT           NOT NULL,
+    [ID]           INT        IDENTITY(1,1)   NOT NULL,
     [Name]         VARCHAR (255) NOT NULL,
     [President_ID] INT           NOT NULL,
     PRIMARY KEY CLUSTERED ([ID] ASC),

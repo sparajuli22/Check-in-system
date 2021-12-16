@@ -11,17 +11,13 @@ using System.Windows.Forms;
 
 namespace ISCform
 {
-    public partial class Form1 : Form
+    public partial class CheckIn : Form
     {
-        private const string V = "You have clicked me ! ";
-        private const string Y = "You also have cliked me ! ";
-        string email = " ";
-        string name = " ";
-        string ID = " " ;
-
-        public Form1()
+        bool isStudent;
+        public CheckIn()
         {
             InitializeComponent();
+            isStudent = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -49,23 +45,63 @@ namespace ISCform
 
         }
 
+        private void ClearTextbox()
+        {
+            emailTextBox.Text = string.Empty;
+            textBox2.Text = string.Empty;
+            textBox3.Text = string.Empty;
+            purposeTextbox.Text = string.Empty;
+        }
+
         private void button1_MouseClick(object sender, MouseEventArgs e)
         {
             var newconn = new DatabaseConnector();
-            var studentList = newconn.GetStudentVisits();
-            email = emailTextBox.Text;
-            name = textBox2.Text;
-            ID = textBox3.Text;
-            // label1.Text = $"Hello, {studentList[0].Name.ToString() + studentList[0].Purpose.ToString() + studentList[0].EntryTime.ToString()} ," ;
-            if (newconn.checkLogin("lgonzalez","lgonzalez123") == true)
+            var email = emailTextBox.Text;
+            var name = textBox2.Text;
+            var id = textBox3.Text;
+            var purpose = purposeTextbox.Text; 
+            try
             {
-                label1.Text = $"WE FOUND IT";
+                if (isStudent)
+                {
+                    newconn.AddStudent(Int32.Parse(id), name, email, purpose);
+                    ClearTextbox();
+                    bottomMessage.Text = "Succesfully added " + name;
+                }
+                else
+                {
+
+                        newconn.AddVisitor(name, email, purpose);
+                        ClearTextbox();
+                        bottomMessage.Text = "Succesfully added " + name;
+  
+                }
             }
+            catch (Exception ex)
+            {
+                bottomMessage.Text = ex.Message;
+            }
+
         }
         private void button2_MouseClick(object sender, MouseEventArgs e)
         {
-            Form2 f2 = new Form2();
+            LoginPage f2 = new LoginPage();
             f2.Show();
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            isStudent = !isStudent;
+        }
+
+        private void purposeTextbox_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

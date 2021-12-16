@@ -175,14 +175,6 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
-    <Build Include="dbo\Stored Procedures\INSERT_Employee.sql">
-      <AnsiNulls>On</AnsiNulls>
-      <QuotedIdentifier>On</QuotedIdentifier>
-    </Build>
-    <Build Include="dbo\Stored Procedures\INSERT_EmpVisits.sql">
-      <AnsiNulls>On</AnsiNulls>
-      <QuotedIdentifier>On</QuotedIdentifier>
-    </Build>
     <Build Include="dbo\Stored Procedures\INSERT_Events.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
@@ -199,23 +191,7 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
-    <Build Include="dbo\Stored Procedures\INSERT_OtherVisits.sql">
-      <AnsiNulls>On</AnsiNulls>
-      <QuotedIdentifier>On</QuotedIdentifier>
-    </Build>
-    <Build Include="dbo\Stored Procedures\INSERT_Student.sql">
-      <AnsiNulls>On</AnsiNulls>
-      <QuotedIdentifier>On</QuotedIdentifier>
-    </Build>
-    <Build Include="dbo\Stored Procedures\INSERT_StudentVisits.sql">
-      <AnsiNulls>On</AnsiNulls>
-      <QuotedIdentifier>On</QuotedIdentifier>
-    </Build>
-    <Build Include="dbo\Stored Procedures\INSERT_Visitor.sql">
-      <AnsiNulls>On</AnsiNulls>
-      <QuotedIdentifier>On</QuotedIdentifier>
-    </Build>
-    <Build Include="dbo\Stored Procedures\INSERT_Visits.sql">
+    <Build Include="dbo\Stored Procedures\usp_AddVisitor.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
@@ -247,5 +223,13 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
+    <Build Include="dbo\Stored Procedures\usp_Addstudent.sql" />
+    <Build Include="dbo\Stored Procedures\usp_GetOtherVisits.sql" />
+    <Build Include="dbo\Stored Procedures\usp_CalculateStudentVisitors.sql" />
+    <Build Include="dbo\Stored Procedures\usp_CalculateUniqueStudentVisitors.sql" />
+    <Build Include="dbo\Stored Procedures\usp_calculateStudentsLastMonth.sql" />
+    <Build Include="dbo\Stored Procedures\usp_calculateOthersLastMonth.sql" />
+    <Build Include="dbo\Stored Procedures\usp_CalculateOtherVisitors.sql" />
+    <Build Include="dbo\Stored Procedures\usp_CalculateUniqueOtherVisitors.sql" />
   </ItemGroup>
 </Project>

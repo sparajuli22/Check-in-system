@@ -8,8 +8,8 @@ namespace FinalProjectISC
 {
     public class LoginInfo
     {
-        string LoginId { get; set; }
-        string Password { get; set; }
-        string Name { get; set; }
+        public string LoginId { get; set; }
+        public string Password { get; set; }
+        public string Name { get; set; }
     }
 }

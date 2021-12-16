@@ -233,5 +233,9 @@
     </Build>
     <Build Include="Security\Permissions.sql" />
     <Build Include="dbo\Stored Procedures\usp_GetStudents.sql" />
+    <Build Include="dbo\Stored Procedures\usp_GetStudentVisits.sql">
+      <AnsiNulls>Off</AnsiNulls>
+      <QuotedIdentifier>Off</QuotedIdentifier>
+    </Build>
   </ItemGroup>
 </Project>

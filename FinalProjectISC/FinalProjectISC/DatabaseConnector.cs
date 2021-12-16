@@ -26,5 +26,13 @@ namespace FinalProjectISC
                 commandType: CommandType.StoredProcedure);
             return studentList.ToArray();
         }
+
+        public Visits[] GetStudentVisits()
+        {
+            var visitsList = connection.Query<Visits>(
+                "usp_GetStudentVisits",
+                commandType: CommandType.StoredProcedure);
+            return visitsList.ToArray();
+        }
     }
 }

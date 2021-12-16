@@ -52,13 +52,11 @@ namespace ISCform
         private void button1_MouseClick(object sender, MouseEventArgs e)
         {
             var newconn = new DatabaseConnector();
-            var studentList = newconn.GetStudents();
+            var studentList = newconn.GetStudentVisits();
             email = emailTextBox.Text;
             name = textBox2.Text;
             ID = textBox3.Text;
-            label1.Text = $"Hello, {studentList[0].SName.ToString()} ," +
-                $" {studentList[1].SName.ToString()} , " +
-                $" {studentList[2].SName.ToString()}";
+            label1.Text = $"Hello, {studentList[0].Name.ToString() + studentList[0].Purpose.ToString() + studentList[0].EntryTime.ToString()} ," ;
 
         }
         private void button2_MouseClick(object sender, MouseEventArgs e)

@@ -8,8 +8,8 @@ namespace FinalProjectISC
 {
     public class Employee
     {
-        int Id { get; set; }
-        int Ename { get; set; }
-        int Email { get; set; }
+        public int Id { get; set; }
+        public int Ename { get; set; }
+        public int Email { get; set; }
     }
 }

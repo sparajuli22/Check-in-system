@@ -8,10 +8,10 @@ namespace FinalProjectISC
 {
     public class ISC_Staff
     {
-        int ID { get; set; }
-        string IC_Name { get; set; }
-        string email { get; set; }
-        string OfficeNum { get; set; }
-        string loginID { get; set; }
+        public int ID { get; set; }
+        public string IC_Name { get; set; }
+        public string email { get; set; }
+        public string OfficeNum { get; set; }
+        public string loginID { get; set; }
     }
 }

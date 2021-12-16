@@ -10,6 +10,7 @@ namespace FinalProjectISC
     {
         public int ID { get; set; }
         public string Name { get; set; }
+        public string Purpose { get; set; }
         public string VisitingName { get; set; }
         public DateTime EntryTime { get; set; }
     }

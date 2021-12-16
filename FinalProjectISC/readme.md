@@ -1,5 +1,5 @@
-Navigations for the Project :
-    - List of Folders 
+* Navigations for the Project :
+    * List of Folders 
         *  Final project ISC : ( all tables from databases are separate classes and have respective objects)
             *  Clubs.cs : individual clubs 
             * - DatabaseConnector.cs : connects our database to C# . Embedded SQL

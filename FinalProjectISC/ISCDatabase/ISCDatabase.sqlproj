@@ -237,5 +237,15 @@
       <AnsiNulls>Off</AnsiNulls>
       <QuotedIdentifier>Off</QuotedIdentifier>
     </Build>
+    <Build Include="dbo\Stored Procedures\usp_GetVisitorVisits.sql" />
+    <Build Include="dbo\Stored Procedures\usp_GetVisitors.sql" />
+    <Build Include="dbo\Stored Procedures\usp_GetEvents.sql" />
+    <Build Include="dbo\Stored Procedures\usp_GetEmployeeVisits.sql" />
+    <Build Include="dbo\Stored Procedures\usp_GetEmployees.sql" />
+    <Build Include="dbo\Stored Procedures\usp_GetClubs.sql" />
+    <Build Include="dbo\Stored Procedures\usp_CheckLogin.sql">
+      <AnsiNulls>On</AnsiNulls>
+      <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
   </ItemGroup>
 </Project>

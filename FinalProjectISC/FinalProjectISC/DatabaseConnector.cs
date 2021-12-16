@@ -15,10 +15,11 @@ namespace FinalProjectISC
 
         public DatabaseConnector()
         {
-            connection = new SqlConnection("Data Source =LAPTOP-B6M8UUTC; Initial Catalog =ISC; Integrated Security=SSPI");
+            connection = new SqlConnection("Data Source =NIZ17; Initial Catalog =ISCDatabase; Integrated Security=SSPI");
             connection.Open();
         }
 
+        // Getter Functions
         public Student[] GetStudents()
         {
             var studentList = connection.Query<Student>(
@@ -27,6 +28,7 @@ namespace FinalProjectISC
             return studentList.ToArray();
         }
 
+
         public Visits[] GetStudentVisits()
         {
             var visitsList = connection.Query<Visits>(
@@ -34,5 +36,45 @@ namespace FinalProjectISC
                 commandType: CommandType.StoredProcedure);
             return visitsList.ToArray();
         }
+        
+        /*
+        public Events[] GetEvents()
+        {
+            var eventslist = connection.Query<Events>(
+                "usp_GetEvents",
+                commandType: CommandType.StoredProcedure);
+            return eventslist.ToArray();
+        }
+        */
+
+        public Clubs[] GetClubs()
+        {
+            var clubsList = connection.Query<Clubs>(
+                "usp_GetClubs",
+                commandType: CommandType.StoredProcedure);
+            return clubsList.ToArray();
+        }
+
+        public LoginInfo[] GetLoginInfo(string ID, string Pwd)
+        {
+            var loginInfo = connection.Query<LoginInfo>(
+                "usp_CheckLogin @ID = " + ID + " @Pwd = " + Pwd,
+                commandType: CommandType.StoredProcedure);
+                return loginInfo.ToArray();
+        }
+
+        public bool checkLogin(string ID, string Pwd)
+        {
+            LoginInfo[] count = GetLoginInfo(ID, Pwd);
+            if (count.Length > 0)
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
+
+        }
+
     }
 }

@@ -50,3 +50,20 @@ F:\Database\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.csproj.
 F:\Database\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.csproj.CopyComplete
 F:\Database\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.exe
 F:\Database\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.pdb
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\bin\Debug\ISCform.exe.config
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\bin\Debug\ISCform.exe
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\bin\Debug\ISCform.pdb
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\bin\Debug\FinalProjectISC.exe
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\bin\Debug\Dapper.dll
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\bin\Debug\FinalProjectISC.pdb
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\bin\Debug\FinalProjectISC.exe.config
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\bin\Debug\Dapper.xml
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.csproj.AssemblyReference.cache
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.Form1.resources
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.Form2.resources
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.Properties.Resources.resources
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.csproj.GenerateResource.cache
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.csproj.CoreCompileInputs.cache
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.csproj.CopyComplete
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.exe
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\ISCform\obj\Debug\ISCform.pdb

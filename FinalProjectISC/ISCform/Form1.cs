@@ -56,8 +56,11 @@ namespace ISCform
             email = emailTextBox.Text;
             name = textBox2.Text;
             ID = textBox3.Text;
-            label1.Text = $"Hello, {studentList[0].Name.ToString() + studentList[0].Purpose.ToString() + studentList[0].EntryTime.ToString()} ," ;
-
+            // label1.Text = $"Hello, {studentList[0].Name.ToString() + studentList[0].Purpose.ToString() + studentList[0].EntryTime.ToString()} ," ;
+            if (newconn.checkLogin("lgonzalez","lgonzalez123") == true)
+            {
+                label1.Text = $"WE FOUND IT";
+            }
         }
         private void button2_MouseClick(object sender, MouseEventArgs e)
         {

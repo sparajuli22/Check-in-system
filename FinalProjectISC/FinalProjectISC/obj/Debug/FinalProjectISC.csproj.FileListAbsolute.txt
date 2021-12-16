@@ -20,3 +20,13 @@ F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\FinalPr
 F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\Dapper.dll
 F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\Dapper.xml
 F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.CopyComplete
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\FinalProjectISC.exe.config
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\FinalProjectISC.exe
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\FinalProjectISC.pdb
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\Dapper.dll
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\FinalProjectISC\bin\Debug\Dapper.xml
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.AssemblyReference.cache
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.CoreCompileInputs.cache
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.CopyComplete
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.exe
+C:\USA\CS Classes\DBMS\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.pdb

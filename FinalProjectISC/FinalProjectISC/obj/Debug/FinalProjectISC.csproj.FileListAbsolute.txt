@@ -9,3 +9,8 @@ C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProje
 C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.pdb
 C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.AssemblyReference.cache
 C:\Users\satis\source\repos\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.SuggestedBindingRedirects.cache
+F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.AssemblyReference.cache
+F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.SuggestedBindingRedirects.cache
+F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.csproj.CoreCompileInputs.cache
+F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.exe
+F:\Database\database_final_isc\FinalProjectISC\FinalProjectISC\obj\Debug\FinalProjectISC.pdb

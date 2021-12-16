@@ -18,7 +18,7 @@
 
 
 *  To Run the program :
-*    Things needed to install :
+    * Things needed to install :
         * WPF (.NET Framework)
         * Dapper Extension and csv helper (NuGetPackages)
         * SQL extension
